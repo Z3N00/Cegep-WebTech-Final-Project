@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/recipe-detail.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
 </head>
 
@@ -233,7 +235,7 @@
                 <tr>
 
                     <td><br>
-                        <button class="contact__form-btn">Publish</button>
+                        <button class="contact__form-btn" onclick="add_comment()">Publish</button>
                     </td>
                 </tr>
 
@@ -245,11 +247,13 @@
                 </tr>
 
             </table>
-            <table>
-                <tbody>
+            <div id="table_comments">
+            <table id="comments">
+                <tbody >
 
                 </tbody>
             </table>
+            </div>
 
         </div>
 
@@ -287,6 +291,49 @@
         duration: 600,
         once: true
     });
+
+    if ("savedComments" in localStorage) {
+        table = JSON.parse(window.localStorage.getItem('savedComments'))
+        document.getElementById("comments").innerHTML = table
+
+    }
+
+
+    function add_comment(){
+        var comment = document.getElementById("subject").value
+        var tbodyRef = document.getElementById('comments').getElementsByTagName('tbody')[0];
+        var index = tbodyRef.rows.length +1
+        // Insert a row at the end of table
+        var newRow = tbodyRef.insertRow();
+        // Insert a cell at the end of the row
+        var newCell = newRow.insertCell();
+        var newText = document.createTextNode(index.toString()+") "+comment);
+        newCell.appendChild(newText);
+        var table = $('#table_comments').wrap('<table/>').parent().html();
+        table = JSON.stringify(table);
+        window.localStorage.setItem('savedComments', table);
+
+
+    }
+
+
+
+
+    // function commentDisplayer(comment) {
+    //     document.getElementById("comments").innerHTML = comment;
+    // }
+    //
+    // let myPromise = new Promise(function(myResolve, myReject) {
+    //
+    //     setTimeout(function() { myResolve("I love You !!"); }, 3000);
+    // });
+    //
+    // myPromise.then(
+    //     function(value) {commentDisplayer(value);},
+    //     function(error) {commentDisplayer(error);}
+    // );
+
+
 </script>
 
 </body>
