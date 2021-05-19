@@ -334,20 +334,20 @@
 
 
 
-
-    function commentDisplayer(comment) {
-        document.getElementById("comments").innerHTML = comment;
-    }
-    
-    let myPromise = new Promise(function(myResolve, myReject) {
-    
-        setTimeout(function() { myResolve("I love You !!"); }, 3000);
-    });
-    
-    myPromise.then(
-        function(value) {commentDisplayer(value);},
-        function(error) {commentDisplayer(error);}
-    );
+    //
+    // function commentDisplayer(comment) {
+    //     document.getElementById("comments").innerHTML = comment;
+    // }
+    //
+    // let myPromise = new Promise(function(myResolve, myReject) {
+    //
+    //     setTimeout(function() { myResolve("I love You !!"); }, 3000);
+    // });
+    //
+    // myPromise.then(
+    //     function(value) {commentDisplayer(value);},
+    //     function(error) {commentDisplayer(error);}
+    // );
 
 
 </script>
