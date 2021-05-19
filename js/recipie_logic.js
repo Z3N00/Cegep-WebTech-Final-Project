@@ -30,7 +30,7 @@ function addRecepies(item,index) {
         " <div class=\"col-12 col-md-6 col-lg-4\" data-aos=\"fade-up\" data-aos-easing=\"ease-in-out\"\n" +
         "                        data-aos-delay=\"100\">\n" +
         "                        <div class=\"recipes-list__item\">\n" +
-        "                            <a href=\"dish-recipes/Pizza.html\">\n" +
+        `                            <a href=\"recipe-detail.html?index=${index}\">\n` +
         `                            <img src=\"images/recipes/${Math.floor(Math.random() * 12)+1}.jpg\" alt=\"\">\n` +
         "                            </a>\n" +
         "                            <div class=\"recipes-list__info-background\">\n" +
