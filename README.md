@@ -10,8 +10,8 @@ using various HTML Dom methods and jQuery Functions.
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/notty-geek"><img src="https://avatars.githubusercontent.com/u/14343387?v=4 width="100px;" alt=""/><br /><sub><b>Sahil Girdhar</b></sub></a><br /><a href="https://github.com/notty-geek" title="UserName">💬</a><a href="https://github.com/notty-geek/IosFirstApp/" title="Reviewed Pull Requests">👀</a> </td>
-<td align="center"><a href="https://github.com/Z3N00"><img src="https://avatars.githubusercontent.com/u/31339403?v=4 width="100px;" alt=""/><br /><sub><b>Kartik Gupta</b></sub></a><br /><a href="https://github.com/Z3N00" title="UserName">💬</a><a href="https://github.com/notty-geek/IosFirstApp/" title="Reviewed Pull Requests">👀</a> </td>
+    <td align="center"><a href="https://github.com/notty-geek"><img src="https://avatars.githubusercontent.com/u/14343387?v=4 width="100px;" alt=""/><br /><sub><b>Sahil Girdhar</b></sub></a><br /><a href="https://github.com/notty-geek" title="UserName">💬</a><a href="https://github.com/Z3N00/Cegep-WebTech-Final-Project" title="Reviewed Pull Requests">👀</a> </td>
+<td align="center"><a href="https://github.com/Z3N00"><img src="https://avatars.githubusercontent.com/u/31339403?v=4 width="100px;" alt=""/><br /><sub><b>Kartik Gupta</b></sub></a><br /><a href="https://github.com/Z3N00" title="UserName">💬</a><a href="https://github.com/Z3N00/Cegep-WebTech-Final-Project" title="Reviewed Pull Requests">👀</a> </td>
   </tr>
 </table>
 
