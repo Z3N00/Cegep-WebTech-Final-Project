@@ -7,7 +7,7 @@ function parserecipeJson(startpoint,breakpoint,ref_id) {
 
     document.getElementById(ref_id).style.background = "#ff2a6b";
     $( "#recipe_data" ).empty();
-    // document.getElementById("recipe_data")
+    // document.getElementById("recipe_data"
 
     $.ajax({
         url: 'db/db-recipes.json',
