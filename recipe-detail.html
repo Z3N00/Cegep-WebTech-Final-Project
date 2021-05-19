@@ -287,20 +287,6 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
 
-    $(document).ready(function () {
-        $.ajax({
-            url: 'db/db-recipes.json',
-            type: 'GET',
-            dataType: 'json',
-            success: function (code, status) {
-                for (let i in code) {
-                    console.log(code[i].name);
-                    // console.log(JSON.parse(code[i]));
-                }
-
-            }
-        });
-    });
 
     AOS.init({
         easing: 'ease-in-out',
