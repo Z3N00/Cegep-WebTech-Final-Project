@@ -27,6 +27,6 @@ any IDE that supports HTML & JAVASCRIPT.
 Now that you have Webstorm  downloaded, let’s go ahead and open it up.
 
 
-# Navigating Xcode
+# Navigating Webstorm
 
 The Main Home page goes with name Index.html
