@@ -51,5 +51,5 @@ function addRecepies(item,index) {
 // document.getElementById("recipe_data").innerHTML = ""
 
 
-setTimeout(parserecipeJson(0,12,1),3000);
+setTimeout(parserecipeJson(0,9,1),3000);
 
