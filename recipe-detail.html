@@ -286,6 +286,8 @@
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
+
+
     AOS.init({
         easing: 'ease-in-out',
         duration: 600,
@@ -318,20 +320,20 @@
 
 
 
-
-    function commentDisplayer(comment) {
-        document.getElementById("comments").innerHTML = comment;
-    }
-    
-    let myPromise = new Promise(function(myResolve, myReject) {
-    
-        setTimeout(function() { myResolve("I love You !!"); }, 3000);
-    });
-    
-    myPromise.then(
-        function(value) {commentDisplayer(value);},
-        function(error) {commentDisplayer(error);}
-    );
+    //
+    // function commentDisplayer(comment) {
+    //     document.getElementById("comments").innerHTML = comment;
+    // }
+    //
+    // let myPromise = new Promise(function(myResolve, myReject) {
+    //
+    //     setTimeout(function() { myResolve("I love You !!"); }, 3000);
+    // });
+    //
+    // myPromise.then(
+    //     function(value) {commentDisplayer(value);},
+    //     function(error) {commentDisplayer(error);}
+    // );
 
 
 </script>
